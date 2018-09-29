@@ -1,0 +1,27 @@
+{
+  "name": "meandmyfamily",
+  "version": "0.0.1",
+  "description": "MeAndMyFamily site.",
+  "main": "index.html",
+  "scripts": {
+    "serve": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bloodyaugust/meandmyfamily.git"
+  },
+  "keywords": [
+    "social",
+    "media"
+  ],
+  "author": "MeAndMyFamily",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Bloodyaugust/meandmyfamily/issues"
+  },
+  "homepage": "https://github.com/Bloodyaugust/meandmyfamily#readme",
+  "devDependencies": {
+    "serve": "^10.0.2"
+  }
+}
