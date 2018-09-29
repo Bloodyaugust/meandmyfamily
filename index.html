@@ -41,13 +41,31 @@ html {
 	justify-content: center;
 }
 
+#mc_embed_signup form {
+	width: 100%;
+}
+
 #mc_embed_signup input[type="email"] {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
 	margin: 0 auto;
 	min-width: 300px;
 }
 
 #mc_embed_signup input[type="submit"] {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
 	margin: 1rem auto;
+}
+
+@media only screen and (max-device-width: 720px) {
+	#mc_embed_signup input[type="email"] {
+		font-size: 28px;
+	}
+
+	#mc_embed_signup input[type="submit"] {
+		font-size: 28px;
+	}
 }
 </style>
 
